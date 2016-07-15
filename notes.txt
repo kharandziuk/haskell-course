@@ -1,1 +1,4 @@
 курс несколько упоротрый - требует от тебя многих знаний: умение гуглить, использовать консоль и так далее
+
+
+https://leiffrenzel.de/papers/getting-started-with-hunit.html - hunit faq
