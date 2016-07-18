@@ -96,16 +96,23 @@ validateTests = TestList
     (validate 4012888888881882)
   ]
 
-type Peg = String
-type Move = (Peg, Peg)
-hanoi :: Integer -> Peg -> Peg -> Peg -> [Move]
-hanoi 
-
-hanoiTests = TestList
-  [
-  TestCase $ assertEqual
-    "can find a solution"
-    [("a","c"), ("a","b"), ("c","b")]
-    (hanoi 2 "a" "b" "c")
-  ]
-main = runTestTT $ TestList [ hanoiTests, validateTests ]
+--type Peg = String
+--type Move = (Peg, Peg)
+--aux :: [[Int]] -> [(Int, Int)]
+--aux state 
+--
+----hanoi :: Int-> Peg -> Peg -> Peg -> [Move]
+----hanoi x a b c = 
+--
+--hanoiTests = TestList
+--  [
+--  TestCase $ assertEqual
+--    "can find a solution"
+--    [(1, 3), (1, 2), (")]
+--    (aux [[1, 2], [], []])
+--  --TestCase $ assertEqual
+--  --  "can find a solution"
+--  --  [("a","c"), ("a","b"), ("c","b")]
+--  --  (hanoi 2 "a" "b" "c")
+--  ]
+main = runTestTT $ TestList [ validateTests ]
