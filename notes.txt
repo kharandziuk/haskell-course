@@ -2,3 +2,4 @@
 
 
 https://leiffrenzel.de/papers/getting-started-with-hunit.html - hunit faq
+http://book.realworldhaskell.org/read/getting-started.html -- book Real World Haskell
