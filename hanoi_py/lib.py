@@ -15,6 +15,6 @@ def simulation(count, pegs, moves):
         except (IndexError):
             raise ValidationError
         pegs_dict[t].insert(0, 0)
-        if not (isValid(pegs_dict[f]) and isValid(pegs_dict[t])):
+        if not (isValidPeg(pegs_dict[f]) and isValidPeg(pegs_dict[t])):
             raise ValidationError
     return len(pegs_dict[pegs[1]]) == count
